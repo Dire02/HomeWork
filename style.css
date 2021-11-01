@@ -22,7 +22,7 @@ textarea
 	{
 		height: 6em;
 	}
-	.btn
+.btn
 	{
 		border-radius:	20px; 
 		height:			40px;
@@ -39,6 +39,7 @@ textarea
 	}	
 .btn-contained.primary
 	{
+		border:		none;
 		background-color:	blue;
 		color:				white;
 	/*	font-weight:        bold;*/  /* just in case*/
