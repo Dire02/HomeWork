@@ -1,0 +1,54 @@
+ form
+	{
+		box-sizing:		border-box;
+		margin:			0px;
+		border: double;
+		padding: 8px;
+		font-family: "b koodak";
+	}	
+body
+	{
+		padding:		1em;
+	}
+:lang(fa)
+	{
+		direction: rtl;
+	}
+input,textarea,label
+	{
+		width: 30%;
+				
+	}
+textarea
+	{
+		height: 6em;
+	}
+.btn
+	{
+		border-radius:	20px; 
+		height:			36px;
+		margin:			8px 0px 0px 8px; 
+		min-width:		64dp;	
+		padding:		0px 16px 0px 16px;
+	}
+.btn *
+	{
+		vertical-align:	middle;
+		
+			
+	}	
+.btn-contained.primary
+	{
+		border: none;
+		background-color:	#ff6666;
+		color:				white;
+		font-weight:        bold;*/  /* just in case*/
+	}
+
+
+.btn i
+	{
+		font-size:		18px;
+	}
+			
+		
