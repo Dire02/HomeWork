@@ -9,29 +9,17 @@
 		<link rel = "stylesheet" href = "style.css">
 	</head>
 	<body>
-	
-		<h1>ثبت نام</h1>
+
 		<form action = "register.php" method = "post">
-		<label for = "name">نام :</label>
+		<label >ثبت نام کاربر جدید</label>
+		<input type = "text" id="name" name = "name" placeholder = "نام کاربری ">
 		<br>
-		<input type = "text" id="name" name = "name">
+		<input type = "password" id="pass" name = "pass" placeholder = "رمز عبور ">
 		<br>
-		<label for = "pass"> رمز جدید:</label>
+
+		<input type = "email" id = "email" name = "email" placeholder = "ایمیل">
 		<br>
-		<input type = "password" id="pass" name = "pass" placeholder = "فقط از حروف A تا Z و اعداد 1 تا 9 استفتده شود ">
-		<br>
-		<label for = "gender">جنسیت : </label>
-		<br>
-		<select name = "gender" id="gender">
-			<option value = "male">مرد</option>
-			<option value = "female" selected>زن</option>
-		</select>	
-		<br>
-		<label for = "email">ایمیل :</label>
-		<br>
-		<input type = "email" id = "email" name = "email" placeholder = "example@example.com">
-		<br>
-		<button type = "submit" class = "btn btn-contained primary">
+		<button type = "submit" class = "btn btn-filled">
 				<span>
 				ثبت نام
 				</span>
