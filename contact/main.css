@@ -1,0 +1,60 @@
+
+*
+   {
+       box-sizing:		border-box;
+       margin:			0;
+       padding: 		0;
+       line-height: 1.6;
+       font-family: "B Koodak";
+       outline: none;
+   }	
+body
+    {
+
+        background-image: url("bg.jpg");
+        background-color: #cccccc;
+    }
+html
+   {
+       padding:		1em;
+       font-size: 		16px;
+      
+   }
+   form
+   {
+    border:   	 double ;
+    padding:		1em;
+    font-size: 		16px;
+   }
+:lang(fa)
+   {
+       direction: rtl;
+       text-align: right;
+       
+   }
+:lang(en)
+   {
+       direction: ltr;
+       text-align: left;
+       
+   }
+input,textarea,button
+   {
+       height: 		 48px;
+       padding:		 16px;
+       border:		 1px solid transparent;
+       border-radius:	25px; 
+       font-size:		20px;
+       margin: 8px 8px 8px 8px;
+       min-width:		 200px;
+       max-width: 		 100%;
+               
+   }
+textarea
+   {
+       height: 6em;
+   }
+
+
+           
+       
