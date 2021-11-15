@@ -1,35 +1,37 @@
 @import url("components.css");
 *
    {
-
-
        box-sizing:		border-box;
        line-height: 1.6;
        font-family: "B Koodak";
        outline: none;
-   }	
-body
+       margin-left:auto;
+       margin-right:auto;
+   }
+   body
     {
-        background-image: url("bg1.jpg");
         padding:		1em;
-        margin-left:auto;
-        margin-right:auto;
-        width:500px;
+        width:300px;
         background-color: #cccccc;
     }
-html
+    html
    {
        padding:		1em;
        font-size: 		16px;
       
    }
    form
-   {
-    background-color: rgba(245, 245, 245,50%);
-    border-radius: 20px;
-    padding:		1em;
-    font-size: 		16px;
-   }
+	{
+		box-sizing:		border-box;
+        background-color: whitesmoke;
+		width:300px;
+        border-radius:	20px; 
+		padding: 1em;
+		font-family: "b koodak";
+        font-size: 		16px;
+		
+	}	
+
 :lang(fa)
    {
        direction: rtl;
@@ -51,45 +53,25 @@ input,textarea,button,label
        font-size:		20px;
        margin: 8px 8px 8px 8px;
        min-width:		 200px;
-       max-width: 		 100%;     
+       max-width: 		 100%;
+       width: 90%;
+               
    }
    input
    {
-    background-color: #aa9a9a;
+       background-color: silver;
    }
+   h2
+   {
+       padding: 0 68px;
+   }
+
 textarea
    {
        height: 6em;
    }
    
-form
-	{
-		box-sizing:		border-box;
-		margin-left:auto;
-		margin-right:auto;
-		width:500px;
-		padding: 8px;
-		font-family: "b koodak";
-		
-	}	
-body
-	{
-		padding:		1em;
-		margin-left:auto;
-		margin-right:auto;
-		width:500px;
-		
-	}
-:lang(fa)
-	{
-		direction: rtl;
-		
-	}
-
-textarea
-	{
-		height: 6em;
-	}
+	
 
 		
 

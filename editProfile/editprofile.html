@@ -10,28 +10,22 @@
 	</head>
 	<body>
 	
-		<h1>ویرایش پروفایل</h1>
-		<form action = "login.php" method = "post">
-		<label for = "name">نام :</label>
+		
+		<form action = "editprofile.php" method = "post">
+		<h2>ویرایش پروفایل</h2>
+		<label for = "name">نام کاربری : </label>
 		<br>
 		<input type = "text" id="name" name = "name">
 		<br>
 		<label for = "pass"> رمز  عبور جدید:</label>
 		<br>
-		<input type = "password" id="pass" name = "pass" placeholder = "فقط از حروف A تا Z و اعداد 1 تا 9 استفتده شود ">
-		<br>
-		<label for = "gender">جنسیت : </label>
-		<br>
-		<select name = "gender" id="gender">
-			<option value = "male">مرد</option>
-			<option value = "female" selected>زن</option>
-		</select>	
+		<input type = "password" id="pass" name = "pass" placeholder = "a-z,1-9">	
 		<br>
 		<label for = "email">ایمیل :</label>
 		<br>
 		<input type = "email" id = "email" name = "email" placeholder = "example@example.com">
 		<br>
-		<button type = "submit" class = "btn btn-contained primary">
+		<button type = "submit" class = "btn btn-filled">
 				<span>
 				ثبت تغییرات
 				</span>
