@@ -1,13 +1,3 @@
-<?php
-include 'setting.php';
-include 'db.php';
-
-	$uid = $_GET['id'];
-	$db = new db($dbhost, $dbuser, $dbpass, $dbname);
-
-	$productlist = $db->query("SELECT * FROM product WHERE id = $uid ")->fetchArray();
-	
-?>
 
 <!doctype html>
 <html lang= "fa">
@@ -22,12 +12,12 @@ include 'db.php';
 	<body>
 	
 		<h1>ویرایش اطلاعات محصول</h1>
-		<form action = "editProduct.php?id=<?php echo $uid;?>" method = "post">
+		<form action = "" method = "post">
 			<input type = "text"  placeholder = "کد محصول" value = <?php echo $uid;?> >
 		<br>
-		<input type = "text" id="title" name = "title" placeholder = "عنوان محصول" value = <?php echo $productlist['title'];?> >
+		<input type = "text" id="title" name = "title" placeholder = "عنوان محصول" value = <?php echo  $title;?> >
 		
-		<input list = "durations" type = "search" name = "duration" placeholder="مدت زمان " value = <?php echo $productlist['duration'];?>>
+		<input list = "durations" type = "search" name = "duration" placeholder="مدت زمان " value = <?php echo $duration;?>>
 			<datalist id = "durations">
 				<option value = "1 month">1 ماهه</option>
 				<option value = "3 month">3 ماهه</option>
@@ -38,11 +28,11 @@ include 'db.php';
 				<option value = "forever">مادام العمر</option>
 			</datalist>
 		<br>	
-		<textarea id = "discription" name = "discription" placeholder = "توضیحات" > <?php echo $productlist['discription'];?> </textarea>
+		<textarea id = "discription" name = "discription" placeholder = "توضیحات" > <?php echo $discription;?> </textarea>
 		<br>
-		<input type = "text" id="price" name = "price" placeholder = "قیمت " value = <?php echo $productlist['price'];?>>
+		<input type = "text" id="price" name = "price" placeholder = "قیمت " value = <?php echo $price;?>>
 		<label >تومان </label>
-		<button type = "submit" class = "btn btn-filled">
+		<button type = "submit" class = "btn btn-filled" name = "submit">
 				<span>
 				ثبت تغییرات
 				</span>
