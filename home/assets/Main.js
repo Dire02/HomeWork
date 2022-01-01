@@ -1,3 +1,5 @@
+
+
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
@@ -6,7 +8,7 @@ const swiper = new Swiper('.swiper', {
     loop: true,
     autoPlay: true,
     slidesPerView:3,	
-  
+    
     // If we need pagination
     pagination: {
       el: '.swiper-pagination',
@@ -20,3 +22,4 @@ const swiper = new Swiper('.swiper', {
   
     
   });
+

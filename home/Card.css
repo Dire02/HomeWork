@@ -60,6 +60,7 @@
 }
 .card-filled:hover{
     background:	rgba(28, 27, 31,12%);
+    color: white;
 }
 .card-filled:focus{
     background:	rgba(28, 27, 31,12%);
@@ -79,18 +80,4 @@ img{
 	max-height:	100%;
 }
 
-.grid-container{
- display: grid;
- grid-template-columns: auto auto auto;
- grid-gap: 16px;
- height: auto;
 
-
-}
-.swiper {
-    width: 100%;
-    height: 25%;
-  }
-  .swiper-slide {
-    width: 30vw;
-  }
